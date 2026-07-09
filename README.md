@@ -2,6 +2,20 @@
 Useful Python utilities for font generation.
 
 
+## Converter.py
+Quickly convert fonts from one file type to another.
+
+### Dependencies
+ - [fonttools](https://github.com/fonttools/fonttools)
+ - [brotli](https://github.com/google/brotli)
+
+### Usage
+1. Run the script.
+2. Enter the path to the font you wish to convert.
+3. Choose an output format (1-4).
+4. Enter the output font name.
+
+
 ## Metrify.py
 Easily copy the metrics from one font to another.
 
