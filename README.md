@@ -1,6 +1,7 @@
 # Adeotype Python Utils
 Useful Python utilities for font generation.
 
+
 ## Metrify.py
 Easily copy the metrics from one font to another.
 
@@ -27,3 +28,14 @@ Copy and remap widths **and** global font metrics (ascent, descent, etc.) Usecas
 `python metrify.py source.ttf target.ttf output.ttf --copy-lsb --full-metric`  
 Copy and remap **everything**. Usage:
  - You want a **fully** metrically-compatible font.
+
+
+## Ranger.py
+Generate a plaintext file with the unicode ranges of the inputted font.
+
+### Dependencies
+ - [fonttools](https://github.com/fonttools/fonttools)
+
+### Usage
+`python ranger.py source.ttf`  
+Will output `source_ranges.txt` file with all necessary information.
