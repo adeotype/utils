@@ -33,13 +33,13 @@ Copy and remap **only** the left side bearing (the amount of empty space between
  - You want glyphs positions identically inside their advance widths.
  - You are transferring metrics between builds of the same font family.
 
-`python metrify.py source.ttf target.ttf output.ttf --full-metric`  
+`python metrify.py source.ttf target.ttf output.ttf --full-metrics`  
 Copy and remap widths **and** global font metrics (ascent, descent, etc.) Usecase: 
  - You want the target font to behave like the source font in word processing applications.
  - You want matching line spacing and vertical alignment.
  - You are trying to create a metrically-compatible font.
 
-`python metrify.py source.ttf target.ttf output.ttf --copy-lsb --full-metric`  
+`python metrify.py source.ttf target.ttf output.ttf --copy-lsb --full-metrics`  
 Copy and remap **everything**. Usage:
  - You want a **fully** metrically-compatible font.
 
