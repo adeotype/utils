@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 """
-cliconvert.py
+fontconvert.py
 
 Convert fonts between TTF, OTF, WOFF, and WOFF2 containers.
 
@@ -9,13 +9,13 @@ Dependencies:
     pip install fonttools brotli
 
 Examples:
-    python cliconvert.py font.ttf font.otf
-    python cliconvert.py font.ttf font.woff2
-    python cliconvert.py font.woff2 font.ttf
-    python cliconvert.py font.woff font.woff2
+    python fontconvert.py font.ttf font.otf
+    python fontconvert.py font.ttf font.woff2
+    python fontconvert.py font.woff2 font.ttf
+    python fontconvert.py font.woff font.woff2
 
     # Explicit format
-    python cliconvert.py font.ttf output --format woff2
+    python fontconvert.py font.ttf output --format woff2
 """
 
 from __future__ import annotations
